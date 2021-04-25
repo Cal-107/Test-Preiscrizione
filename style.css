@@ -1,0 +1,115 @@
+/* font generale */
+
+*{
+  font-family: 'Open Sans';
+}
+
+/* background */
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* fine background */
+
+
+/* box centrale trasparente */
+
+div.box{
+  text-align: center;
+  background: rgba(0,0,0,0.6);
+  margin: auto;
+  margin-top: 3%;
+  width: 63%;
+  border-radius: 25px;
+  padding-top: 4%;
+  padding-bottom: 5%;
+}
+
+/* fine box trasparente */
+
+/* inizio header */
+
+img{
+  width: 22%;
+  margin-top: 3%
+}
+
+/* slogan */
+
+h1{
+  font-size: 35px;
+  color: rgb(57, 230, 0);
+  margin-top: 0%;
+  margin-bottom: 6px
+}
+
+/* fine slogan */
+
+/* fine header */
+
+/* inizio main */
+
+/* bottoni opzioni varie */
+
+.action-buttons{
+  background-color: rgb(57, 230, 0);
+  width: 81%;
+  margin: auto;
+  padding-bottom: 13px;
+  padding-top: 13px;
+}
+
+/* fine bottoni opzioni varie */
+
+#vehicle-selection{
+  color: white;
+  text-align: left;
+  margin: auto;
+  width: 81%;
+}
+
+
+h2{
+  margin:2px;
+  margin-top: 20px;
+  margin-bottom: 1px;
+}
+
+/* simbolo freccia */
+
+.arrow:before{
+  content: "\21A6";
+}
+
+
+/* stato batterie */
+
+#carica-batteria{
+  background: rgb(255, 163, 102);
+  margin-top: 4px;
+  width: 35%;
+  border-radius: 8px;
+  padding-top: 4%;
+}
+
+#carica-batteria2{
+  background: rgb(34, 195, 34);
+  margin-top: 4px;
+  width: 65%;
+  border-radius: 8px;
+  padding-top: 4%;
+}
+
+#carica-batteria3{
+  background: rgb(185, 70, 70);
+ margin-top: 0.5%;
+ width: 15%;
+ border-radius: 8px;
+ padding-top: 4%;
+}
+/* fine stato batterie */
+
+/* fine main */
